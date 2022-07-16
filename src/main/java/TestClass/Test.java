@@ -1,15 +1,17 @@
 package TestClass;
 
 import Base.Baseclass;
-import Page.HomePgae;
+import Page.HomePage;
+import com.aventstack.extentreports.Status;
 
 public class Test  extends Baseclass {
     @org.testng.annotations.Test
     public void Test()
     {
-        test=extent.startTest("home page");
-        HomePgae home= new HomePgae();
+        test=extent.createTest("login page");
+        HomePage home= new HomePage();
         home.homePgae();
+        test.log(Status.INFO,"page open");
     }
 
 

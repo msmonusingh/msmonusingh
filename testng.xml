@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="E:/eclipse-workspace/Tutree">
         <classes>
-            <class name="Test.java"/>
+            <class name="TestClass.Test"></class>
         </classes>
     </test>
 </suite>
